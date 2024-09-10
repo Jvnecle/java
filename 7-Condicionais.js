@@ -1,17 +1,4 @@
-<!DOCTYPE html>
-<html>
-
-<head>
-
-
-
-</head>
-
-<body>
-
-
-    <script>
-    console.log(`Trabalhando com condicionais`);
+console.log(`Trabalhando com condicionais`);
     //const salvador = `Salvador`;
     //const saoPaulo = `São Paulo`;
     //const rioDeJaneiro = `Rio de Janeiro`
@@ -49,11 +36,3 @@
     console.log(idadeComprador <= 18);
     console.log(idadeComprador >= 18);
     console.log(idadeComprador == 18);
-
-
-    
-    </script>
-</body>
-
-
-</html>
