@@ -1,7 +1,4 @@
 console.log(`Trabalhando com condicionais`);
-    //const salvador = `Salvador`;
-    //const saoPaulo = `São Paulo`;
-    //const rioDeJaneiro = `Rio de Janeiro`
 
     const listaDeDestinos = new Array(
         `Salvador`,
@@ -11,6 +8,7 @@ console.log(`Trabalhando com condicionais`);
     
     const idadeComprador = 17;
     const estaAcompanhada = true;
+    const temPassagemComprada = true;
 
 
 
@@ -35,11 +33,18 @@ console.log(`Trabalhando com condicionais`);
      console.log("Não é maior de idade e não vender"); 
     }
      
+    console.log("Embarque: \n\n")
+    if(idadeComprador >= 18 && temPassagemComprada){
+        console.log("Boa viagem");
+    }else{
+        console.log("Você não pode embarcar")
+    }
    
     console.log(listaDeDestinos);
     
-    console.log(idadeComprador > 18);
-    console.log(idadeComprador < 18);
-    console.log(idadeComprador <= 18);
-    console.log(idadeComprador >= 18)
-    console.log(idadeComprador == 18);
+    //console.log(idadeComprador > 18);
+    //console.log(idadeComprador < 18);
+    //console.log(idadeComprador <= 18);
+    //console.log(idadeComprador >= 18)
+    //console.log(idadeComprador == 18);
+
